@@ -19,6 +19,7 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <script src="js/contact.js" defer></script>
 </head>
 <body>
     <header>
@@ -29,7 +30,46 @@
         </script>
     </header>
     <main>
-
+        <div class="content-body">
+            <h2>Contact us</h2>
+            <div class="success" id="end-feedback">
+                <h3 class="success-text" id="end-feedback-text"></h3>
+            </div>
+            <form action="" id="submission-form">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name-input" name="name">
+                    <div class="feedback" id="name-feedback">
+                        <p class="feedback-text" id="name-feedback-text"></p>
+                    </div>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="text" id="email-input" name="email">
+                    <div class="feedback" id="email-feedback">
+                        <p class="feedback-text" id="email-feedback-text"></p>
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" id="subject-input" name="subject">
+                    <div class="feedback" id="subject-feedback">
+                        <p class="feedback-text" id="subject-feedback-text"></p>
+                    </div>
+                </div>
+                <div>
+                    <label for="content"></label>
+                    <input type="text" id="content-input" name="content">
+                    <div class="feedback" id="content-feedback">
+                        <p class="feedback-text" id="content-feedback-text"></p>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+            
+        </div>
     </main>
     <footer>
 
